@@ -1,0 +1,1 @@
+A tree is a connected acyclic graph that consists of n nodes and n − 1 edges.
