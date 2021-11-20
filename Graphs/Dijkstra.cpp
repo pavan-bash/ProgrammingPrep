@@ -31,6 +31,7 @@ int32_t main()
         int a, b, w;
         cin >> a >> b >> w;
         graph[a].push_back({b, w});
+        graph[b].push_back({a, w});
     }
 
     dist[1] = 0;
